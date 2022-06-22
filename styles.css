@@ -1,9 +1,15 @@
-.body{
-    background-color: khaki;
+body{
+    background-color:silver;
 }
-.contentenedor1{
-    align-items: center;
+.card{
+    position: fixed;
+    border-radius: 50px;
+    background-color:khaki;
     justify-content: center;
+    padding-top: 500px;
     display: flex;
+    
+    
 
+    
 }

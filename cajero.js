@@ -1,8 +1,8 @@
-var imagenes = [];
-imagenes["100"] = "http://culturainformatica10.com/wp-content/uploads/billete100.png";
-imagenes["50"] = "http://culturainformatica10.com/wp-content/uploads/billete50.png"
-imagenes["20"] = "http://culturainformatica10.com/wp-content/uploads/billete20.png"
-imagenes["10"] = "http://culturainformatica10.com/wp-content/uploads/billete10.png"
+var precios = [];
+precios["100"]
+precios["50"] 
+precios["20"] 
+precios["10"] 
 
 class Billete
 {
@@ -11,7 +11,7 @@ class Billete
 		this.valor = v;
 		this.cantidad = c;
 		this.imagen = new Image();
-		this.imagen.src = imagenes[this.valor];
+		this.imagen.src = precios[this.valor];
 	}
 }
 
